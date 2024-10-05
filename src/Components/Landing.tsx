@@ -29,7 +29,7 @@ const Landing: React.FC<LandingProps> = ({ login }) => {
         draggable="false"
       />
       <div className="w-[88%] md:w-[80%] max-w-[800px]">
-        <div className="text-4xl">Attendance Tracker</div>
+        <div className="text-4xl">Attendify</div>
         <p
           style={{
             background: "linear-gradient(45deg, #00479A , #ffffff)",

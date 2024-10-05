@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggle, setToggle, handleLogout }) => {
     <nav className="flex items-center h-[60px] justify-between p-4 bg-zinc-800 relative">
     <div className="flex items-center gap-2">
       <img src="/assets/images/logo.png" alt="logo" className="w-12 mr-2" />
-      <span className="text-2xl font-semibold">Attendance Tracker</span>
+      <span className="text-2xl font-semibold">Attendify</span>
     </div>
     <button className="text-zinc-300" onClick={() => setToggle(!toggle)}>
       <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
